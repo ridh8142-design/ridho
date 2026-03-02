@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>CV - Muhammad Ridho Audri</title>
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+<style>
+
+:root{
+--bg:#0f172a;
+--card:#1e293b;
+--text:#e2e8f0;
+--accent:#3b82f6;
+}
+
+body{
+margin:0;
+font-family:'Segoe UI',sans-serif;
+background:var(--bg);
+color:var(--text);
+transition:0.3s;
+}
+
+.container{
+max-width:1000px;
+margin:40px auto;
+background:var(--card);
+padding:40px;
+border-radius:15px;
+box-shadow:0 10px 30px rgba(0,0,0,0.4);
+}
+
+.header{
+display:flex;
+align-items:center;
+gap:30px;
+flex-wrap:wrap;
+}
+
+.header img{
+width:140px;
+height:140px;
+border-radius:50%;
+border:4px solid var(--accent);
+object-fit:cover;
+}
+
+.name h1{
+margin:0;
+font-size:30px;
+}
+
+.name p{
+margin:5px 0;
+opacity:0.8;
+}
+
+.social{
+margin-top:10px;
+}
+
+.social a{
+color:var(--accent);
+margin-right:15px;
+font-size:20px;
+text-decoration:none;
+}
+
+h2{
+margin-top:35px;
+border-bottom:2px solid var(--accent);
+padding-bottom:5px;
+}
+
+.grid{
+display:grid;
+grid-template-columns:1fr 1fr;
+gap:30px;
+}
+
+ul{
+line-height:1.8;
+padding-left:20px;
+}
+
+.skill{
+margin:10px 0;
+}
+
+.skill-name{
+font-size:14px;
+margin-bottom:5px;
+}
+
+.bar{
+background:#334155;
+height:8px;
+border-radius:10px;
+}
+
+.progress{
+height:8px;
+border-radius:10px;
+background:var(--accent);
+}
+
+.project{
+background:#334155;
+padding:15px;
+border-radius:10px;
+margin-top:10px;
+}
+
+button{
+background:var(--accent);
+border:none;
+padding:8px 16px;
+border-radius:20px;
+cursor:pointer;
+margin-top:10px;
+font-weight:bold;
+}
+
+.light-mode{
+--bg:#f1f5f9;
+--card:#ffffff;
+--text:#1e293b;
+}
+
+@media(max-width:700px){
+.grid{
+grid-template-columns:1fr;
+}
+.header{
+text-align:center;
+justify-content:center;
+}
+}
+
+</style>
+</head>
+
+<body>
+
+<div class="container">
+
+<div class="header">
+
+<img src="WhatsApp Image 2026-03-02 at 09.40.46.jpeg".jpg>
+
+<div class="name">
+
+<h1>Muhammad Ridho Audri</h1>
+
+<p>IT Support • Teknisi Jaringan • Quality Control</p>
+
+<p>
+<i class="fa-solid fa-envelope"></i> ridh8142@gmail.com  
+<br>
+<i class="fa-solid fa-location-dot"></i> Jakarta Timur, Indonesia
+</p>
+
+<div class="social">
+
+<a href="https://github.com/username" target="_blank">
+<i class="fa-brands fa-github"></i>
+</a>
+
+<a href="https://linkedin.com/in/username" target="_blank">
+<i class="fa-brands fa-linkedin"></i>
+</a>
+
+</div>
+
+<button onclick="toggleMode()">Toggle Mode</button>
+
+</div>
+</div>
+
+
+<h2>Ringkasan Profesional</h2>
+
+<p>
+Staf dukungan TI dan kontrol dokumen yang teliti dengan pengalaman dalam
+verifikasi data, manajemen dokumen, dan dukungan teknis.
+Terampil dalam menjaga akurasi sistem, efisiensi administrasi,
+dan mendukung operasi teknis di lingkungan profesional.
+</p>
+
+
+<div class="grid">
+
+<div>
+
+<h2>Pengalaman</h2>
+
+<h3>Quality Control (QC)</h3>
+
+<ul>
+<li>Periksa dan verifikasi keakuratan dokumen.</li>
+<li>Pastikan kepatuhan terhadap SOP operasional.</li>
+<li>Identifikasi ketidaksesuaian dan lakukan pemeriksaan korektif.</li>
+</ul>
+
+<h3>Staf Arsip Dokumen</h3>
+
+<ul>
+<li>Mengelola dan mengatur catatan perusahaan.</li>
+<li>Pertahankan sistem pengarsipan yang terstruktur.</li>
+<li>Siapkan dokumentasi administratif.</li>
+</ul>
+
+</div>
+
+
+<div>
+
+<h2>Technical Skills</h2>
+
+<div class="skill">
+<div class="skill-name">Networking</div>
+<div class="bar"><div class="progress" style="width:80%"></div></div>
+</div>
+
+<div class="skill">
+<div class="skill-name">Mikrotik</div>
+<div class="bar"><div class="progress" style="width:75%"></div></div>
+</div>
+
+<div class="skill">
+<div class="skill-name">HTML / Web Basics</div>
+<div class="bar"><div class="progress" style="width:70%"></div></div>
+</div>
+
+<div class="skill">
+<div class="skill-name">Microsoft Office</div>
+<div class="bar"><div class="progress" style="width:85%"></div></div>
+</div>
+
+<div class="skill">
+<div class="skill-name">Document Control</div>
+<div class="bar"><div class="progress" style="width:90%"></div></div>
+</div>
+
+</div>
+
+</div>
+
+
+<h2>Projects</h2>
+
+<div class="project">
+
+<b>Simulasi Topologi Jaringan</b>
+
+<p>
+Membuat topologi jaringan menggunakan router dan konfigurasi nirkabel
+untuk mempelajari infrastruktur jaringan dan konektivitas sistem.
+</p>
+
+</div>
+
+<div class="project">
+
+<b>Situs Web CV Pribadi</b>
+
+<p>
+Mengembangkan situs web portofolio pribadi menggunakan HTML dan CSS
+untuk mempresentasikan pengalaman profesional dan keterampilan teknis.
+</p>
+
+</div>
+
+
+<h2>Pendidikan</h2>
+
+<p>
+Sekolah Menengah Kejuruan
+Teknik Komputer dan Jaringan (TKJ)
+</p>
+
+</div>
+
+
+<script>
+
+function toggleMode(){
+document.body.classList.toggle("light-mode")
+}
+
+</script>
+
+</body>
+</html>
