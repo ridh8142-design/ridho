@@ -1,0 +1,29 @@
+CONTOH OUTPUT - TUGAS MODUL 3
+Nama: Muhammad Ridho Audri
+NIM: 412610172
+
+SOAL 1 - DISKON MINIMARKET
+Pilih program (0-4): 1
+Masukkan total belanja (Rp): 150000
+Total belanja : Rp150,000.00
+Diskon        : Rp15,000.00
+Total bayar   : Rp135,000.00
+
+SOAL 2 - PENENTUAN KELULUSAN
+Pilih program (0-4): 2
+Masukkan nilai akhir mahasiswa: 80
+Status: LULUS
+
+SOAL 3 - TAHUN KABISAT
+Pilih program (0-4): 3
+Masukkan tahun: 2024
+Tahun 2024 adalah tahun kabisat.
+
+SOAL 4 - KONVERSI SUHU
+Pilih program (0-4): 4
+Masukkan suhu dalam Celsius: 100
+Celsius   : 100.00 °C
+Reamur    : 80.00 °R
+Fahrenheit: 212.00 °F
+
+Catatan: Contoh output di atas adalah simulasi pengujian berdasarkan input yang ditampilkan.
