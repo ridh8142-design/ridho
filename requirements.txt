@@ -1,0 +1,3 @@
+# Tidak memerlukan package tambahan.
+# Program menggunakan pustaka bawaan Python 3.
+# Versi yang disarankan: Python 3.8 atau lebih baru.
