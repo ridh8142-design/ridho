@@ -1,0 +1,19 @@
+TUGAS MODUL 5 - TIPE DATA
+Muhammad Ridho Audri | 412610172
+
+1. PENGGUNAAN STRING
+Kalimat awal       : belajar coding sangat menyenangkan
+Setelah replace    : belajar coding sangat keren
+Setelah uppercase  : BELAJAR CODING SANGAT KEREN
+
+2. JENIS-JENIS TIPE DATA
+Nilai a : 100 | Tipe data: int
+Nilai b : 3.14 | Tipe data: float
+Nilai c : halo semuanya | Tipe data: str
+
+3. PENGGUNAAN LIST
+List warna sebelum diubah : ['merah', 'biru', 'hijau', 'kuning', 'ungu']
+List warna setelah diubah : ['merah', 'biru', 'jingga', 'kuning', 'ungu']
+Elemen ketiga sekarang    : jingga
+
+SELURUH TUGAS MODUL 5 SELESAI DIJALANKAN
